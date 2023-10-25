@@ -1,0 +1,93 @@
+@media (min-width: 1000px) {
+    .requisites__item:hover{
+        &::before{
+            height: 100%;
+        }
+        background: #F9F9F9;
+
+        svg path{
+            fill: var(--secondColor);
+        }
+    }
+    .btn:hover {
+        opacity: .8;
+    }
+    .phone:hover {
+        opacity: .8;
+    }
+    .nav__item:hover::before{
+        left: 0;
+        right: 0;
+    }
+    .logo:hover {
+        opacity: .8;
+    }
+    .services__item.services__item-link:hover .services__item-title::before,
+    .question__box-link:hover::before,
+    .news__link:hover::before,
+    .news__slide-link:hover:before,
+    .service__item-link:hover .service__item-txt::before{
+        transform: translate(2px, -2px);
+    }
+    .service__item-link:hover .service__item-icon svg path {
+        fill: var(--secondColor);
+    }
+    .advantages__link:hover {
+        color: white;
+
+        &::before{
+            bottom: 0;
+        }
+    }
+    .question__dropdown-item-top:hover {
+        color: var(--secondColor);
+
+        svg path {
+            fill: var(--secondColor);
+        }
+    }
+    .question__box-phone:hover {
+        opacity: .8;
+    }
+    .news__slider-btn:hover {
+        background: rgba(255, 255, 255, 1);
+    }
+
+    .footer a:not(.footer__phone):hover::before{
+        left: 0;
+        right: 0;
+    }
+    .footer__social-link:hover svg path {
+        fill: var(--secondColor);
+    }
+    .footer__phone:hover{
+        opacity: .8;
+    }
+    .media__item:hover {
+        background-color: #1C1718;
+        .media__item-social{
+            background-color: #1C1718;
+        }
+        svg fill {
+            fill: var(--secondColor);
+        }
+        .media__item-link{
+            color: #fff;
+        }
+    }
+    .requisites__link:hover {
+        color: var(--secondColor);
+    }
+    .breadcrumbs__link:hover {
+        color: var(--mainColor);
+    }
+    .question-page__aside-links-item:hover svg path {
+        fill: var(--secondColor);
+    }
+    .footer__social-item:hover a{
+        svg path {
+            fill: var(--secondColor);
+        }
+    }
+}
+
