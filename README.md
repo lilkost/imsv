@@ -1,4 +1,4 @@
-<h1 align="center">imsv_landing</h1>
+<h1 align="center">imsv</h1>
 <hr>
 <a href="https://lilkost.github.io/imsv/verstka/">Главная</a><br>
 <a href="https://lilkost.github.io/imsv/verstka/contact.html">Контакты</a><br>
